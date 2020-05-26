@@ -1,16 +1,24 @@
-# features_flutter
+# Projeto - Features
 
-funcioanlidades flutter maps/location/camera ...
+### funcionalidades flutter maps/location/
+----
+camera
 
-## Getting Started
+## SKD - 1.17.1
 
-This project is a starting point for a Flutter application.
+### Versão inicial do projeto.
 
-A few resources to get you started if this is your first Flutter project:
+- [features_flutter](https://github.com/isaiasnas/features_flutter)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Projeto **features_flutter** *funcionalidades* ...
+[documentação](https://github.com/isaiasnas/features_flutter/blob/master/README.md)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Histórico
+
+Versão | Status | Data
+----------|--------|-------------
+0.0.0 | beta | 2020-05-25
+
+## License
+
+[MIT](https://github.com/isaiasnas/features_flutter/blob/master/LICENSE)
