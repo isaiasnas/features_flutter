@@ -1,5 +1,8 @@
+import 'dart:convert';
+
 import 'package:features_flutter/provider/greate_places.dart';
 import 'package:features_flutter/screen/add_place_screen.dart';
+import 'package:features_flutter/screen/place_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -41,7 +44,13 @@ class PlaceListScreen extends StatelessWidget {
                           ),
                           title: Text(value.items[index].title),
                           subtitle: Text(value.items[index].location.address),
-                          onTap: () {},
+                          onTap: () {
+                            print(value.items[index].id);
+                            Navigator.of(context).pushNamed(
+                              PlaceDetailScreen.routeName,
+                              arguments: value.items[index].id,
+                            );
+                          },
                         ),
                       ),
               ),

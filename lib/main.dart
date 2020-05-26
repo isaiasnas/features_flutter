@@ -1,5 +1,6 @@
 import 'package:features_flutter/provider/greate_places.dart';
 import 'package:features_flutter/screen/add_place_screen.dart';
+import 'package:features_flutter/screen/place_detail_screen.dart';
 import 'package:features_flutter/screen/place_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         home: PlaceListScreen(),
         routes: {
           AddPlaceScreen.routeName: (ctx) => AddPlaceScreen(),
+          PlaceDetailScreen.routeName: (ctx) => PlaceDetailScreen(),
         },
       ),
     );

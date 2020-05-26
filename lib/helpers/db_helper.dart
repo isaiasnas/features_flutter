@@ -14,6 +14,7 @@ class DbHelper {
 
   static Future<void> insert(String table, Map<String, Object> data) async {
     var db = await DbHelper.dataBase();
+    print(data);
     db.insert(
       table,
       data,
