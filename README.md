@@ -1,8 +1,8 @@
 # Projeto - Features
 
-### funcionalidades flutter maps/location/
+### funcionalidades flutter maps/location/camera
 ----
-camera
+
 
 ## SKD - 1.17.1
 
